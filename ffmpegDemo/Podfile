@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+
+target 'ffmpegDemo' do
+	
+	pod "ffmpeg-release" , :path => '../ffmpeg-release/ffmpeg-release.podspec'
+	 
+end

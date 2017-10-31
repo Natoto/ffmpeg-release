@@ -1,0 +1,16 @@
+PODS:
+  - ffmpeg-release (0.0.1)
+
+DEPENDENCIES:
+  - ffmpeg-release (from `./ffmpeg-release/ffmpeg-release.podspec`)
+
+EXTERNAL SOURCES:
+  ffmpeg-release:
+    :path: "./ffmpeg-release/ffmpeg-release.podspec"
+
+SPEC CHECKSUMS:
+  ffmpeg-release: 1ebbd84b7bc1dd94f44529156d5134a1a3872353
+
+PODFILE CHECKSUM: 31cb52e9ecd6d9a156ca4298333df03183578a6d
+
+COCOAPODS: 1.1.1

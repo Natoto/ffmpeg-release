@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C510B8D867DAD884F261437C /* libPods-ffmpegDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8528C9103B6DC2432D980DC3 /* libPods-ffmpegDemo.a */; };
+		F8ACCC161FA816C6008A5FCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8ACCC151FA816C6008A5FCE /* AppDelegate.m */; };
+		F8ACCC191FA816C6008A5FCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8ACCC181FA816C6008A5FCE /* ViewController.m */; };
+		F8ACCC1C1FA816C6008A5FCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8ACCC1A1FA816C6008A5FCE /* Main.storyboard */; };
+		F8ACCC1E1FA816C6008A5FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8ACCC1D1FA816C6008A5FCE /* Assets.xcassets */; };
+		F8ACCC211FA816C6008A5FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8ACCC1F1FA816C6008A5FCE /* LaunchScreen.storyboard */; };
+		F8ACCC241FA816C6008A5FCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8ACCC231FA816C6008A5FCE /* main.m */; };
+		F8ACCC2B1FA823C8008A5FCE /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8ACCC2A1FA823C8008A5FCE /* VideoToolbox.framework */; };
+		F8ACCC2D1FA823D5008A5FCE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8ACCC2C1FA823D5008A5FCE /* AudioToolbox.framework */; };
+		F8ACCC2F1FA829A1008A5FCE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F8ACCC2E1FA829A1008A5FCE /* libz.tbd */; };
+		F8ACCC311FA829EF008A5FCE /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F8ACCC301FA829EE008A5FCE /* libbz2.tbd */; };
+		F8ACCC331FA829F7008A5FCE /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F8ACCC321FA829F7008A5FCE /* libiconv.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40A0DC951EFA98B0CC1637F2 /* Pods-ffmpegDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ffmpegDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ffmpegDemo/Pods-ffmpegDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8528C9103B6DC2432D980DC3 /* libPods-ffmpegDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ffmpegDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FD7BAB7ADBAD9F000F6AE6 /* Pods-ffmpegDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ffmpegDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ffmpegDemo/Pods-ffmpegDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F8ACCC111FA816C6008A5FCE /* ffmpegDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ffmpegDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8ACCC141FA816C6008A5FCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8ACCC151FA816C6008A5FCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8ACCC171FA816C6008A5FCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8ACCC181FA816C6008A5FCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8ACCC1B1FA816C6008A5FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8ACCC1D1FA816C6008A5FCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8ACCC201FA816C6008A5FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8ACCC221FA816C6008A5FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8ACCC231FA816C6008A5FCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8ACCC2A1FA823C8008A5FCE /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		F8ACCC2C1FA823D5008A5FCE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F8ACCC2E1FA829A1008A5FCE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F8ACCC301FA829EE008A5FCE /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		F8ACCC321FA829F7008A5FCE /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8ACCC0E1FA816C6008A5FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8ACCC331FA829F7008A5FCE /* libiconv.tbd in Frameworks */,
+				F8ACCC311FA829EF008A5FCE /* libbz2.tbd in Frameworks */,
+				F8ACCC2F1FA829A1008A5FCE /* libz.tbd in Frameworks */,
+				F8ACCC2D1FA823D5008A5FCE /* AudioToolbox.framework in Frameworks */,
+				F8ACCC2B1FA823C8008A5FCE /* VideoToolbox.framework in Frameworks */,
+				C510B8D867DAD884F261437C /* libPods-ffmpegDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012DB4D04E452395CF17239C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8ACCC321FA829F7008A5FCE /* libiconv.tbd */,
+				F8ACCC301FA829EE008A5FCE /* libbz2.tbd */,
+				F8ACCC2E1FA829A1008A5FCE /* libz.tbd */,
+				F8ACCC2C1FA823D5008A5FCE /* AudioToolbox.framework */,
+				F8ACCC2A1FA823C8008A5FCE /* VideoToolbox.framework */,
+				8528C9103B6DC2432D980DC3 /* libPods-ffmpegDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51843DEC7920162B708A9F25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40A0DC951EFA98B0CC1637F2 /* Pods-ffmpegDemo.debug.xcconfig */,
+				95FD7BAB7ADBAD9F000F6AE6 /* Pods-ffmpegDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8ACCC081FA816C6008A5FCE = {
+			isa = PBXGroup;
+			children = (
+				F8ACCC131FA816C6008A5FCE /* ffmpegDemo */,
+				F8ACCC121FA816C6008A5FCE /* Products */,
+				51843DEC7920162B708A9F25 /* Pods */,
+				012DB4D04E452395CF17239C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F8ACCC121FA816C6008A5FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8ACCC111FA816C6008A5FCE /* ffmpegDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8ACCC131FA816C6008A5FCE /* ffmpegDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F8ACCC141FA816C6008A5FCE /* AppDelegate.h */,
+				F8ACCC151FA816C6008A5FCE /* AppDelegate.m */,
+				F8ACCC171FA816C6008A5FCE /* ViewController.h */,
+				F8ACCC181FA816C6008A5FCE /* ViewController.m */,
+				F8ACCC1A1FA816C6008A5FCE /* Main.storyboard */,
+				F8ACCC1D1FA816C6008A5FCE /* Assets.xcassets */,
+				F8ACCC1F1FA816C6008A5FCE /* LaunchScreen.storyboard */,
+				F8ACCC221FA816C6008A5FCE /* Info.plist */,
+				F8ACCC231FA816C6008A5FCE /* main.m */,
+			);
+			path = ffmpegDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8ACCC101FA816C6008A5FCE /* ffmpegDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8ACCC271FA816C6008A5FCE /* Build configuration list for PBXNativeTarget "ffmpegDemo" */;
+			buildPhases = (
+				144968B15ED9402A0F13BAC8 /* [CP] Check Pods Manifest.lock */,
+				F8ACCC0D1FA816C6008A5FCE /* Sources */,
+				F8ACCC0E1FA816C6008A5FCE /* Frameworks */,
+				F8ACCC0F1FA816C6008A5FCE /* Resources */,
+				7FA13800ED8F9B6786D79E4E /* [CP] Embed Pods Frameworks */,
+				25BE4C5EC349721C652CFA36 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ffmpegDemo;
+			productName = ffmpegDemo;
+			productReference = F8ACCC111FA816C6008A5FCE /* ffmpegDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8ACCC091FA816C6008A5FCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = YY.COM;
+				TargetAttributes = {
+					F8ACCC101FA816C6008A5FCE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F8ACCC0C1FA816C6008A5FCE /* Build configuration list for PBXProject "ffmpegDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8ACCC081FA816C6008A5FCE;
+			productRefGroup = F8ACCC121FA816C6008A5FCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8ACCC101FA816C6008A5FCE /* ffmpegDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8ACCC0F1FA816C6008A5FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8ACCC211FA816C6008A5FCE /* LaunchScreen.storyboard in Resources */,
+				F8ACCC1E1FA816C6008A5FCE /* Assets.xcassets in Resources */,
+				F8ACCC1C1FA816C6008A5FCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		144968B15ED9402A0F13BAC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		25BE4C5EC349721C652CFA36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ffmpegDemo/Pods-ffmpegDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FA13800ED8F9B6786D79E4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ffmpegDemo/Pods-ffmpegDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8ACCC0D1FA816C6008A5FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8ACCC191FA816C6008A5FCE /* ViewController.m in Sources */,
+				F8ACCC241FA816C6008A5FCE /* main.m in Sources */,
+				F8ACCC161FA816C6008A5FCE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8ACCC1A1FA816C6008A5FCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8ACCC1B1FA816C6008A5FCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8ACCC1F1FA816C6008A5FCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8ACCC201FA816C6008A5FCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8ACCC251FA816C6008A5FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8ACCC261FA816C6008A5FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8ACCC281FA816C6008A5FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40A0DC951EFA98B0CC1637F2 /* Pods-ffmpegDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32M62TMXC7;
+				INFOPLIST_FILE = ffmpegDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PODS_ROOT)/ffmpeg-release/FFmpeg-iOS/lib/\"",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.ffmpegDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8ACCC291FA816C6008A5FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95FD7BAB7ADBAD9F000F6AE6 /* Pods-ffmpegDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32M62TMXC7;
+				INFOPLIST_FILE = ffmpegDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PODS_ROOT)/ffmpeg-release/FFmpeg-iOS/lib/\"",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.ffmpegDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8ACCC0C1FA816C6008A5FCE /* Build configuration list for PBXProject "ffmpegDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8ACCC251FA816C6008A5FCE /* Debug */,
+				F8ACCC261FA816C6008A5FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8ACCC271FA816C6008A5FCE /* Build configuration list for PBXNativeTarget "ffmpegDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8ACCC281FA816C6008A5FCE /* Debug */,
+				F8ACCC291FA816C6008A5FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8ACCC091FA816C6008A5FCE /* Project object */;
+}
